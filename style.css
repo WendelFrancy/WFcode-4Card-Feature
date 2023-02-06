@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{padding:0; margin:0; box-sizing: border-box;}
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family:'Poppins', sans-serif;
+    padding: 3rem;
+}
+
+.top-text {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 3rem;
+}
+
+.top-text h2 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+
+.top-text h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.top-text p {
+    font-size: 1.05rem;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 1rem 0 3rem 0;
+}
+
+.cards {
+    display: grid;
+    grid-template-areas: 
+    "sup team calc"
+    "sup karma calc";
+    justify-content: center;
+    align-items: center;
+}
+
+article img{
+    max-width: 3rem;
+    margin: 3rem 1rem 1rem 14rem;}
+
+article h1{
+    color: hsl(234, 12%, 34%);
+    font-size: 1.5rem;
+}
+
+article p{
+    font-size: 0.8rem;
+    color: hsl(229, 6%, 66%);
+}
+
+.card-sup {
+    grid-area: sup;
+    border-top: 0.2rem solid hsl(180, 62%, 55%); 
+    max-width: 20rem;
+    height: 13rem;
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 0.2rem;
+    box-shadow: 0 0.2rem 0.5rem 0.2rem hsl(212, 86%, 64%, 0.15);
+}
+
+.card-team {
+    grid-area: team;
+    border-top: 0.2rem solid hsl(0, 78%, 62%);
+    max-width: 20rem;
+    height: 13rem;
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 0.2rem;
+    box-shadow: 0 0.2rem 0.5rem 0.2rem hsl(212, 86%, 64%, 0.15);
+}
+
+.card-karma {
+    grid-area: karma;
+    border-top: 0.2rem solid hsl(34, 97%, 64%);
+    max-width: 20rem;
+    height: 13rem;
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 0.2rem;
+    box-shadow: 0 0.2rem 0.5rem 0.2rem hsl(212, 86%, 64%, 0.15);
+}
+
+
+.card-calc {
+    grid-area: calc;
+    border-top: 0.2rem solid hsl(212, 86%, 64%);
+    max-width: 20rem;
+    height: 13rem;
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 0.2rem;
+    box-shadow: 0 0.2rem 0.5rem 0.2rem hsl(212, 86%, 64%, 0.15);
+}
+    
+
+.attribution { font-size: 11px; text-align: center; padding-top: 2rem; font-weight: 600;}
+.attribution a { color: hsl(228, 45%, 44%); }
